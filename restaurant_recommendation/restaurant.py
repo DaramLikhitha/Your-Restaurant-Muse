@@ -2,7 +2,7 @@ import streamlit as st
 from res_langchain import generate_restaurant
 
 def app():
-    st.title("Restaurant name generator")
+    st.title("Your Restaurant Muse")
 
     cuisines = [
         "Italian",
@@ -124,7 +124,7 @@ def app():
         "Liechtenstein"
     ]
     
-    cuisine = st.sidebar.selectbox("Pick a cuisine",cuisines)
+    cuisine = st.sidebar.selectbox("Select your cuisine",cuisines)
     generate = st.sidebar.button("Generate")
     if generate:
         response = generate_restaurant(cuisine)

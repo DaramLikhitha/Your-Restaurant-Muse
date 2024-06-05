@@ -20,8 +20,8 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/restaurant-name-menu-generator.git
-    cd restaurant-name-menu-generator
+    git clone https://github.com/DaramLikhitha/Your-Restaurant-Muse.git
+    cd "Your-Restaurant-Muse/restaurant recommendation"
     ```
 
 2. **Install the required dependencies**:
@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 
 To start the Streamlit app, run the following command in your terminal:
 ```sh
-streamlit run app.py
+streamlit run restaurant.py
 ```
 
 Once the app is running, follow these steps:
@@ -43,8 +43,8 @@ Once the app is running, follow these steps:
 
 ## Project Structure
 
-- `app.py`: The main application file containing the Streamlit app code.
-- `sequential_chain.py`: Defines the sequential chains using LangChain for generating names and menus.
+- `restaurant.py`: The main application file containing the Streamlit app code.
+- `res_langchain.py`: Defines the sequential chains using LangChain for generating names and menus.
 - `requirements.txt`: A list of Python packages required to run the application.
 - `README.md`: Project documentation.
 
@@ -58,15 +58,8 @@ Once the app is running, follow these steps:
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Acknowledgements
 
 - Special thanks to the developers of Streamlit and LangChain for their powerful tools.
 - Thanks to OpenAI for providing the language models that make this project possible.
 
-## Contact
-
-For any questions or inquiries, please contact [your email@example.com](mailto:your.email@example.com).
