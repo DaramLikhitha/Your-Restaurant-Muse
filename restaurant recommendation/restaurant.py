@@ -125,7 +125,8 @@ def app():
     ]
     
     cuisine = st.sidebar.selectbox("Pick a cuisine",cuisines)
-    if cuisine:
+    generate = st.sidebar.button("Generate")
+    if generate:
         response = generate_restaurant(cuisine)
         st.header(response['restaurant_name'].strip())
         st.write("Cuisine : ",cuisine)
