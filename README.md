@@ -54,6 +54,10 @@ Once the app is running, follow these steps:
 - **LangChain**: Framework for building applications with LLMs.
 - **OpenAI**: API for accessing advanced language models.
 
+## Deployment
+
+The app is deployed and can be accessed at: [https://your-restaurant-muse.streamlit.app/](https://your-restaurant-muse.streamlit.app/)
+
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
